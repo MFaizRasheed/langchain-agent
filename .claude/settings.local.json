@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:\\\\Users\\\\faiz\\\\Desktop\\\\Projectss\\\\langchain-agent\" && python -c \"from langchain.agents import create_react_agent; print\\('found'\\)\" 2>&1 || python -c \"from langchain.agents import Agent; print\\('agents module:', dir\\(\\)\\)\")",
+      "Bash(cd \"C:\\\\Users\\\\faiz\\\\Desktop\\\\Projectss\\\\langchain-agent\" && python -c \"from research_agent_v3 import create_reasearch_agent; print\\('Import successful'\\)\")",
+      "Bash(cd \"C:\\\\Users\\\\faiz\\\\Desktop\\\\Projectss\\\\langchain-agent\" && python -c \"from langchain.agents import middleware; print\\(dir\\(middleware\\)\\)\")",
+      "Bash(cd \"C:\\\\Users\\\\faiz\\\\Desktop\\\\Projectss\\\\langchain-agent\" && python -c \"from langchain.agents.middleware import *; print\\([x for x in dir\\(\\) if 'human' in x.lower\\(\\) or 'Human' in x]\\)\")"
+    ]
+  }
+}
